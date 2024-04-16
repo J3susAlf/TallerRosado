@@ -1,0 +1,240 @@
+  /* LOGO Y TITTULO*/
+  .logo {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.titulo {
+    
+    text-align: center;
+}
+.titulo {
+    font-family: Arial Black, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+}
+
+.navbar-custom {
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.navbar-custom a {
+    color: white;
+}
+
+li a:hover {
+    border-radius: 5px;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    /* Cambia el tamaño del texto en el navbar brand */
+    padding: 10px;
+    /* Agrega un padding al navbar brand para separarlo del resto del navbar */
+}
+
+.input-group input {
+    border-radius: 50px;
+    border-color: #ccc;
+    box-shadow: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 20px;
+}
+
+.input-group button {
+    border-radius: 50px;
+    background-color: #FFC107;
+    border-color: #FFC107;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-group button:hover {
+    background-color: #F44336;
+    border-color: #F44336;
+    box-shadow: 0 4px 10px rgba(244, 67, 54, 0.4);
+}
+
+.input-group input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #F44336;
+}
+
+/* RESPONSIVO*/
+@media (max-width: 992px) {
+
+    /* Estilos para el botón del navbar en modo responsive */
+    .navbar-toggler {
+        margin-right: 0;
+        background: white;
+    }
+
+    /* Estilos para el menú de navegación en modo responsive */
+    .navbar-collapse {
+        margin-top: 10px;
+        /* Cambia el margen superior según tus necesidades */
+    }
+
+    /* Estilos para los elementos del menú de navegación en modo responsive */
+    .nav-item {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 5px;
+        /* Cambia el margen inferior según tus necesidades */
+    }
+
+    /* Estilos para el botón de buscar en modo responsive */
+    .form-select {
+        width: 100%;
+        margin-bottom: 10px;
+        /* Cambia el margen inferior según tus necesidades */
+    }
+
+    /* Estilos para el botón de cerrar sesión en modo responsive */
+    .navbar-brand.btn-lg {
+        display: block;
+        margin-top: 10px;
+        /* Cambia el margen superior según tus necesidades */
+        margin-bottom: 10px;
+        /* Cambia el margen inferior según tus necesidades */
+    }
+
+    /* Estilos para el botón de registrar empleado en modo responsive */
+    .navbar-brand.btn-outline-primary {
+        display: block;
+        margin-top: 10px;
+        /* Cambia el margen superior según tus necesidades */
+        margin-bottom: 10px;
+        /* Cambia el margen inferior según tus necesidades */
+    }
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+/*ESTILOS PARA LOS CARD DE AGREGAR */
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(90% - 25px);
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-group {
+    display: inline-block;
+    position: relative;
+}
+
+.btn-group .dropdown-toggle {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-group .dropdown-toggle:hover {
+    background-color: #0062cc;
+    color: #fff;
+}
+
+.btn-group .dropdown-menu {
+    position: absolute;
+    z-index: 1;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+    right: 0;
+}
+
+.btn-group .dropdown-menu a {
+    display: block;
+    padding: 0.25rem 1.5rem;
+    color: #212529;
+    text-decoration: none;
+    white-space: normal;
+}
+
+.btn-group .dropdown-menu a:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-group .dropdown-menu .dropdown-divider {
+    margin: 0.5rem 0;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.btn-group .dropdown-menu .btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-group .dropdown-menu .btn-danger:hover {
+    background-color: #c82333;
+}
+
+/*ESTILO PARA EL ACORDION*/
+@media only screen and (max-width: 767px) {
+    .btn-group {
+        display: block;
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        display: none;
+        min-width: 100%;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+
+}

@@ -1,0 +1,52 @@
+
+  /* RESPONSIVO*/
+@media (max-width: 992px) {
+
+    /* Estilos para el botón del navbar en modo responsive */
+    .navbar-toggler {
+        margin-right: 0;
+        background: white;
+    }
+
+    /* Estilos para el menú de navegación en modo responsive */
+    .navbar-collapse {
+        margin-top: 10px;
+        /* Cambia el margen superior según tus necesidades */
+    }
+
+    /* Estilos para los elementos del menú de navegación en modo responsive */
+    .nav-item {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 5px;
+        /* Cambia el margen inferior según tus necesidades */
+    }
+
+    /* Estilos para el botón de buscar en modo responsive */
+    .form-select {
+        width: 100%;
+        margin-bottom: 10px;
+        /* Cambia el margen inferior según tus necesidades */
+    }
+
+    /* Estilos para el botón de cerrar sesión en modo responsive */
+    .navbar-brand.btn-lg {
+        display: block;
+        margin-top: 10px;
+        /* Cambia el margen superior según tus necesidades */
+        margin-bottom: 10px;
+        /* Cambia el margen inferior según tus necesidades */
+    }
+
+    /* Estilos para el botón de registrar empleado en modo responsive */
+    .navbar-brand.btn-outline-primary {
+        display: block;
+        margin-top: 10px;
+        /* Cambia el margen superior según tus necesidades */
+        margin-bottom: 10px;
+        /* Cambia el margen inferior según tus necesidades */
+    }
+}
+
+
+  

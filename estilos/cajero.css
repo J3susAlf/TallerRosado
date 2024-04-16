@@ -1,0 +1,33 @@
+.navbar-custom {
+  background-color: #001a8c;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.navbar-custom {
+  width: 100%;
+}
+
+.navbar-custom a {
+  color: white;
+}
+
+.navbar-line-top,
+.navbar-line-bottom {
+  height: 3px;
+  background-color: #002c5c;
+  margin: 0;
+}
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 100px; /* ajusta este valor según sea necesario */
+}
+.tabla-centrada {
+  margin: 0 auto; /* centra la tabla horizontalmente */
+  margin-top: 200px; /* ajusta el espacio entre la tabla y la barra de navegación */
+}
